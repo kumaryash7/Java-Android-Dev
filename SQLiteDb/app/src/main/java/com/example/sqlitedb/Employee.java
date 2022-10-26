@@ -1,0 +1,32 @@
+package com.example.sqlitedb;
+
+public class Employee {
+    public int getSno() {
+        return sno;
+    }
+
+    public void setSno(int sno) {
+        this.sno = sno;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getIncrement() {
+        return increment;
+    }
+
+    public void setIncrement(double increment) {
+        this.increment = increment;
+    }
+
+    private  int sno;
+    private String name;
+    private double increment;
+
+}
